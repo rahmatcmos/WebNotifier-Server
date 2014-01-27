@@ -1,0 +1,16 @@
+Options +FollowSymLinks
+IndexIgnore */*
+RewriteEngine on
+
+# je¿eli katalog lub plik istnieje u¿yj ich bezpoœrednio
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# w przeciwnym razie przekieruj na index.php
+RewriteRule . index.php
+
+# limity dla REST
+<Limit GET POST PUT DELETE>
+order deny,allow
+allow from all
+</Limit>
