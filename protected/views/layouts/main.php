@@ -48,7 +48,7 @@
         </div>
     </div>
     <div class="row-fluid" style="margin-top: 20px;">
-        <span class="shadow pull-right">&copy; 2012 Autorzy serwisu</span>
+        <span class="shadow pull-right">&copy; 2012 Maciej Kłak</span>
     </div>
 </div>
 <?php $this->endContent(); ?>
