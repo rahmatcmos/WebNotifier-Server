@@ -1,5 +1,5 @@
 <?php $this->titleMenu = array(
-    array('label'=>'Klient', 'url'=>'http://gilek.net/wn/WebNotifier-Client.zip','icon'=>'icon-download'),     
+    array('label'=>'Pobierz klienta', 'url'=>'http://gilek.net/wn/WebNotifier-Client.zip','icon'=>'icon-download'),     
     array('label'=>'Nowe konto', 'url'=>array('/profile/create'),'icon'=>'icon-plus-sign'),   
 );?>
 
